@@ -5,6 +5,7 @@ $ brew tap mobingilabs/tap # <-- only once
 $ brew install <toolname>
 
 # Available tools:
+ouchanctl
 linkbatchd
 ccf
 ```
