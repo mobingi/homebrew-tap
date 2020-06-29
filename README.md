@@ -1,7 +1,7 @@
 ## Installation
 ```bash
 # To install:
-$ brew tap mobingilabs/tap # <-- only once
+$ brew tap mobingi/tap # only once
 $ brew install <toolname>
 
 # Available tools:
