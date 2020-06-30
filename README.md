@@ -5,7 +5,7 @@ $ brew tap mobingi/tap # only once
 $ brew install <toolname>
 ```
 
-## Available tools:
+### Available tools
 - [ouchanctl](https://github.com/mobingilabs/ouchan/tree/master/build/ouchanctl)
 - [linkbatchd](https://github.com/mobingilabs/ouchan/tree/master/services/linkbatchd)
 - [ccf](https://github.com/mobingilabs/ouchan/tree/master/cmd/ccf)
