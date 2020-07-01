@@ -2,16 +2,16 @@
 class Azuretoastd < Formula
   desc "Service that populates information associated with Azure daily usage."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.31"
+  version "1.0.32"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.31/ouchantools_1.0.31_darwin_amd64.tar.gz"
-    sha256 "c054a24e33cb990b978413d2be3c9888ac8addd3259d767c37b179765e6f1d52"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.32/ouchantools_1.0.32_darwin_amd64.tar.gz"
+    sha256 "23d02c454e0512c11148ba798a02b45ac46d9c4688b4fe7c504f8e450f959055"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.31/ouchantools_1.0.31_linux_amd64.tar.gz"
-      sha256 "71d7824f37eab062b922ab584c9677c630deb25b3fe3ec50887b30bfa5ea3efb"
+      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.32/ouchantools_1.0.32_linux_amd64.tar.gz"
+      sha256 "2f129cbab5b8f70548523dda2490f5972bc5592a86e438d46d63c920421894de"
     end
   end
 
