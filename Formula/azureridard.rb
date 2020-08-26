@@ -2,16 +2,16 @@
 class Azureridard < Formula
   desc "Service that detects new, updated and deleted RI for Azure."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.34"
+  version "1.0.36"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.34/ouchantools_1.0.34_darwin_amd64.tar.gz"
-    sha256 "02b645793b4ef7ebb215f9d7cee38f3f0213f3f0ce627f6a5125885c6353b81b"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.36/ouchantools_1.0.36_darwin_amd64.tar.gz"
+    sha256 "ae2759df378f2bbc346dab52cc33ad6255778f89a449ee75aa807e09635fb565"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.34/ouchantools_1.0.34_linux_amd64.tar.gz"
-      sha256 "d70433d1a689f651872ea955dbb24270daf29e1547eb785ddf5bb9e0c285e05a"
+      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.36/ouchantools_1.0.36_linux_amd64.tar.gz"
+      sha256 "dfb7f5a2c5860ecb494bb96e37b08062ea30653180826b2892a4566b5c75b77a"
     end
   end
 
