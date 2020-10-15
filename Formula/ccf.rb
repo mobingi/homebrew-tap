@@ -2,16 +2,16 @@
 class Ccf < Formula
   desc "Companion tool for ouchan/linkbatchd."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.37"
+  version "1.0.38"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.37/ouchantools_1.0.37_darwin_amd64.tar.gz"
-    sha256 "111ac45f3cc971ce930a26733b0a3281f77b8752c56395257e8f79604928b982"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.38/ouchantools_1.0.38_darwin_amd64.tar.gz"
+    sha256 "5d5697759c315b012421f923ca87dfe300837443d5ee2e935eb70f1eebc5adcb"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.37/ouchantools_1.0.37_linux_amd64.tar.gz"
-      sha256 "29882901cef4a4c63cc3abdca651f56e3854ee2d6dd74d48626534d69bfb4268"
+      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.38/ouchantools_1.0.38_linux_amd64.tar.gz"
+      sha256 "910e4df754909c6c0a558ebe31c8c6df12e0e21f12d3b30ca59193ba0b9c56f2"
     end
   end
 
