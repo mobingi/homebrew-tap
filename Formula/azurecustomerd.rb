@@ -2,16 +2,16 @@
 class Azurecustomerd < Formula
   desc "Manage Azure customer mapping, status and naming in Azure."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.39"
+  version "1.0.40"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.39/ouchantools_1.0.39_darwin_amd64.tar.gz"
-    sha256 "c1e47e0f56990733c005078d48722a56570be3e9ee13679b15d6374e1f8521d6"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.40/ouchantools_1.0.40_darwin_amd64.tar.gz"
+    sha256 "f00cfa8336a7798049abb2f23ae310295a2d7118477f1830ada4c01949345ee1"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.39/ouchantools_1.0.39_linux_amd64.tar.gz"
-      sha256 "a01f5f50dba94702bf18a64ed6ba4a9ac44a9d72e88758ae2b5d471e7d591ae0"
+      url "https://github.com/mobingi/ouchantools/releases/download/v1.0.40/ouchantools_1.0.40_linux_amd64.tar.gz"
+      sha256 "df6bf241e05f381a95f8308682f2b66e4ba7b026e0921d66fba054ecd860b6c5"
     end
   end
 
