@@ -2,16 +2,16 @@
 class Azurebillportd < Formula
   desc "Service that exports CSV data for Azure."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.41"
+  version "1.0.42"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.41/ouchantools_1.0.41_darwin_amd64.tar.gz"
-    sha256 "35c3bb6ad848dfe36ffa55af2808e121b4e38af89d979390e58f1f24f233fb08"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.42/ouchantools_1.0.42_darwin_amd64.tar.gz"
+    sha256 "5ae576327b591d85a1a16e72124b2b2261da3f2d7de5eb5d00214de3f5f5c06e"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.41/ouchantools_1.0.41_linux_amd64.tar.gz"
-    sha256 "8c0d3c80c80848e4c45a90965685e524e7efc93badba391dc7456faadd984e8c"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.42/ouchantools_1.0.42_linux_amd64.tar.gz"
+    sha256 "0ad27c4e2fffac78fe8e406c08ad38a2587736b118635f45d1cc07fc07801342"
   end
 
   def install
