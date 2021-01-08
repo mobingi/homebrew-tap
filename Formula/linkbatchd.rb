@@ -2,16 +2,16 @@
 class Linkbatchd < Formula
   desc "Batch binary for Ripple/Wave for AWS."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.45"
+  version "1.0.47"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.45/ouchantools_1.0.45_darwin_amd64.tar.gz"
-    sha256 "e2066283e517d7ce0e2bc19af9de3a635b988070c8f19291d6c35c73f3a93757"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.47/ouchantools_1.0.47_darwin_amd64.tar.gz"
+    sha256 "9f2ad62c984fc488b6853276d6145d096de1e125d82b81ab5a84cbcb4e1a8691"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.45/ouchantools_1.0.45_linux_amd64.tar.gz"
-    sha256 "2f4a20314f98d7d3f2b6efb2f2bad75f00c32e581005caf1cc3994b1e2593f6f"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.47/ouchantools_1.0.47_linux_amd64.tar.gz"
+    sha256 "1b730d87524e34e5928e8fe474ecd26e08555a267a061272729829c643e62d97"
   end
 
   def install
