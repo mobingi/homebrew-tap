@@ -14,5 +14,6 @@ $ brew install <toolname>
 - [azurecustomerd](https://github.com/mobingilabs/ouchan/tree/master/services/azurecustomerd)
 - [azureridard](https://github.com/mobingilabs/ouchan/tree/master/services/azureridard)
 - [azuretoastd](https://github.com/mobingilabs/ouchan/tree/master/services/azuretoastd)
+- [oops](https://github.com/alphauslabs/oops)
 
 Source code is in https://github.com/mobingilabs/ouchan.
