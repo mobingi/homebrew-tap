@@ -5,16 +5,16 @@
 class Oops < Formula
   desc "Kubernetes-native testing tool."
   homepage "https://github.com/mobingi/oops"
-  version "1.1.1"
+  version "1.1.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mobingi/oops/releases/download/v1.1.1/oops_1.1.1_darwin_amd64.tar.gz"
-    sha256 "8e14a99a5101da058294be016d7de8a8407e2733e0b483d2f4cd20a63db1b43c"
+    url "https://github.com/mobingi/oops/releases/download/v1.1.2/oops_1.1.2_darwin_amd64.tar.gz"
+    sha256 "a94502059a7850db5bd73e6b0e02d9c254c7e9dd8c8c8f79b3de861cac76d0d2"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/mobingi/oops/releases/download/v1.1.1/oops_1.1.1_linux_amd64.tar.gz"
-    sha256 "76aaa25e4946551bf53f413c1530258e80d72a71503f2ffff62895b5458236e1"
+    url "https://github.com/mobingi/oops/releases/download/v1.1.2/oops_1.1.2_linux_amd64.tar.gz"
+    sha256 "aed6559405c1a5d49ebcd3e40de2de8e52340da7a1e37973421a6b938f71c8e3"
   end
 
   def install
