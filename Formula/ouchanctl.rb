@@ -5,16 +5,16 @@
 class Ouchanctl < Formula
   desc "Build tool for ouchan monorepo."
   homepage "https://github.com/mobingi/ouchantools"
-  version "1.0.48"
+  version "1.0.49"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.48/ouchantools_1.0.48_darwin_amd64.tar.gz"
-    sha256 "46f07abefe75f692018deede09acb2d92a6ed5fbd33d7a4667c135f28351e765"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.49/ouchantools_1.0.49_darwin_amd64.tar.gz"
+    sha256 "260b7a9fc5cade06012faf1875069875e89a1f2ad8946f64a478b637f9a2c691"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.48/ouchantools_1.0.48_linux_amd64.tar.gz"
-    sha256 "4017701adca59ed0f8836f8e8da319f90f655040b561c0c7805dbbc6755e547c"
+    url "https://github.com/mobingi/ouchantools/releases/download/v1.0.49/ouchantools_1.0.49_linux_amd64.tar.gz"
+    sha256 "13d49ab3f6f2b038263df671494c33b224cf562e170b4d1f003bea53b613817e"
   end
 
   def install
